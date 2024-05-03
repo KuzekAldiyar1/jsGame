@@ -6,7 +6,7 @@ function startGame() {
 
 let points = 0;
 
-function explore(location) {
+function poisk(location) {
     let resultText = document.getElementById("resultText");
 
     if (location === 'canteen') {
