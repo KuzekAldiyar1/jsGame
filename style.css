@@ -38,7 +38,7 @@ h1 {
 }
 
 .btn:active {
-    transform: scale(0.95);
+    transform: scale(1.00);
 }
 
 .options {
