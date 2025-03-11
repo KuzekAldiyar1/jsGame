@@ -21,7 +21,7 @@ function explore(location) {
 
         if (!achievements.includes("Pizza Lover")) {
             achievements.push("Pizza Lover");
-            achievementsDiv.innerHTML += "<br>Achievement Unlocked: Pizza Lover!";
+            achievementsDiv.innerHTML += "<br>Achievement Unlocked: HurryCane!";
         }
     } else if (location === 'volleyball') {
         points += 5;
@@ -33,7 +33,7 @@ function explore(location) {
 
         if (!achievements.includes("Volleyball Pro")) {
             achievements.push("Volleyball Pro");
-            achievementsDiv.innerHTML += "<br>Achievement Unlocked: Volleyball Pro!";
+            achievementsDiv.innerHTML += "<br>Achievement Unlocked: RukoPodzhimatel!";
         }
     } else if (location === 'homework') {
         points += 7;
@@ -45,7 +45,7 @@ function explore(location) {
 
         if (!achievements.includes("Homework Hero")) {
             achievements.push("Homework Hero");
-            achievementsDiv.innerHTML += "<br>Achievement Unlocked: Homework Hero!";
+            achievementsDiv.innerHTML += "<br>Achievement Unlocked: HomeWork 'Doner'!";
         }
     } else if (location === 'library') {
         points += 3;
@@ -57,11 +57,11 @@ function explore(location) {
 
         if (!achievements.includes("Bookworm")) {
             achievements.push("Bookworm");
-            achievementsDiv.innerHTML += "<br>Achievement Unlocked: Bookworm!";
+            achievementsDiv.innerHTML += "<br>Achievement Unlocked: Sladkie sny!";
         }
     } else if (location === 'classroom') {
         points += 8;
-        resultText.innerHTML = "You sneaked into the classroom to get your forgotten notebook. But the teacher caught you!";
+        resultText.innerHTML = "You sneaked into the classroom to check your progress check . But the teacher caught you!";
 
         setTimeout(() => {
             resultText.innerHTML += "<br><br>Your target is to come up with a good excuse!";
