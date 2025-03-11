@@ -1,4 +1,3 @@
-
 body {
     background-color: #122cad;
     color: white;
@@ -17,6 +16,10 @@ h1 {
     animation: fadeInDown 1s ease-in-out;
 }
 
+#logo{
+    width: 100px;
+    height: auto;
+}
 
 .btn {
     display: block;
@@ -38,7 +41,7 @@ h1 {
 }
 
 .btn:active {
-    transform: scale(1.00);
+    transform: scale(0.95);
 }
 
 .options {
@@ -52,6 +55,11 @@ h1 {
     animation: fadeInRight 1s ease-in-out;
 }
 
+.achievements {
+    margin-top: 20px;
+    text-align: center;
+    animation: fadeInRight 1s ease-in-out;
+}
 
 @keyframes fadeInDown {
     from {
